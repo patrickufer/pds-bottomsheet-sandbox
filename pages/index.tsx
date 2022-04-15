@@ -9,8 +9,6 @@ const Home = (): JSX.Element => {
 
   return (
   <div className="pageLayout">
-    <p>Visible from Matomo</p>
-    <p data-matomo-mask>Hidden from Matomo</p>
     <button onClick={() => setOpen(true)}>Open bottom sheet</button>
     <hr/>
     <p>Button clicked: {count.toString()} times</p>
@@ -18,16 +16,12 @@ const Home = (): JSX.Element => {
     <button onClick={() => setBlocking(!blocking)}>Toggle BottomSheet blocking</button>
     <BottomSheet blocking={blocking} open={open} header={
         <Fragment>
-          <p>Visible by Matomo</p>
-          <p data-matomo-mask>Hidden from Matomo</p>
           <button onClick={() => setOpen(false)}>Close Sheet</button><br/><br/>
           <PButton onClick={() => setCount(count + 1)}>Click this PButton</PButton>
         </Fragment>
       }>
         {/* BottomSheet body */}
       <div>
-        <p>Visible from Matomo</p>
-        <p data-matomo-mask>Hidden from Matomo</p>
         <button onClick={() => setOpen(false)}>Close Sheet</button><br/><br/>
         <PButton onClick={() => setCount(count + 1)}>Click this PButton</PButton>
       </div>
