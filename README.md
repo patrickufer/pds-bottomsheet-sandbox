@@ -13,6 +13,6 @@ then
 
 ## Summary of issue
 
-We can see fields marked with `data-matomo-mask` on Matomo screen recordings when those fields are placed inside of the BottomSheet component.
+When React Spring Bottom Sheet `blocking={true}` is enabled, PDS button no longer are clickable (HTML5 `<button>` elements still work). When blocking is disabled via `blocking={false}`, PDS button work again (but you lose all accessibility enhancements of the bottom sheet associated with `blocking`).
 
 Link to [React Spring Bottom Sheet](https://github.com/stipsan/react-spring-bottom-sheet)
