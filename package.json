@@ -10,6 +10,7 @@
     "prettier": "prettier --write '**/*.{ts,tsx}'"
   },
   "dependencies": {
+    "@porsche-design-system/components-react": "^2.10.0",
     "@socialgouv/matomo-next": "^1.2.2",
     "next": "11.0.1",
     "react": "16.14.0",

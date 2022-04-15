@@ -1,6 +1,7 @@
 lockfileVersion: 5.3
 
 specifiers:
+  '@porsche-design-system/components-react': ^2.10.0
   '@socialgouv/matomo-next': ^1.2.2
   '@types/node': ^16.11.12
   '@types/react': ^17.0.34
@@ -13,6 +14,7 @@ specifiers:
   typescript: ^4.4.4
 
 dependencies:
+  '@porsche-design-system/components-react': 2.10.0_react-dom@16.14.0+react@16.14.0
   '@socialgouv/matomo-next': 1.2.2_next@11.0.1
   next: 11.0.1_ee66121c5e8037e4e81691f607b7ef77
   react: 16.14.0
@@ -129,6 +131,21 @@ packages:
         optional: true
     dependencies:
       react-refresh: 0.8.3
+    dev: false
+
+  /@porsche-design-system/components-js/2.10.0:
+    resolution: {integrity: sha512-MMDsosMCNM7pE0hArtI+Ai8GQd90dfopqhdDI6O03bV06N+gGakwd+0DVHVQAOf9D/A3MqnwcaEun+k+hpPrjQ==, tarball: '@porsche-design-system/components-js/-/@porsche-design-system/components-js-2.10.0.tgz'}
+    dev: false
+
+  /@porsche-design-system/components-react/2.10.0_react-dom@16.14.0+react@16.14.0:
+    resolution: {integrity: sha512-oSYyufC9oMHBxTXnLG0mLXphTq7BxLxPXR/9WqRgTrJCKWC5QQEIFdH6W5bJlON11q3ADQ8NnZ7Z9FP1NZEbXg==, tarball: '@porsche-design-system/components-react/-/@porsche-design-system/components-react-2.10.0.tgz'}
+    peerDependencies:
+      react: '>=17.0.0 <18.0.0'
+      react-dom: '>=17.0.0 <18.0.0'
+    dependencies:
+      '@porsche-design-system/components-js': 2.10.0
+      react: 16.14.0
+      react-dom: 16.14.0_react@16.14.0
     dev: false
 
   /@reach/portal/0.13.2_react-dom@16.14.0+react@16.14.0:
