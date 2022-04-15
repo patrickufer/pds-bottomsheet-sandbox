@@ -2,7 +2,6 @@ lockfileVersion: 5.3
 
 specifiers:
   '@porsche-design-system/components-react': ^2.10.0
-  '@socialgouv/matomo-next': ^1.2.2
   '@types/node': ^16.11.12
   '@types/react': ^17.0.34
   next: 11.0.1
@@ -15,7 +14,6 @@ specifiers:
 
 dependencies:
   '@porsche-design-system/components-react': 2.10.0_react-dom@16.14.0+react@16.14.0
-  '@socialgouv/matomo-next': 1.2.2_next@11.0.1
   next: 11.0.1_ee66121c5e8037e4e81691f607b7ef77
   react: 16.14.0
   react-dom: 16.14.0_react@16.14.0
@@ -171,14 +169,6 @@ packages:
       react-dom: 16.14.0_react@16.14.0
       tslib: 2.3.1
       warning: 4.0.3
-    dev: false
-
-  /@socialgouv/matomo-next/1.2.2_next@11.0.1:
-    resolution: {integrity: sha512-VWIToHeF0rFtLlGGkjdfUCtLckZebwXwYlnAVYwqMivUboqRgxl7wsUGkGfp6HM4cfYla9NQw4mbqRPXfTGu5Q==}
-    peerDependencies:
-      next: '>= 9.5.5'
-    dependencies:
-      next: 11.0.1_ee66121c5e8037e4e81691f607b7ef77
     dev: false
 
   /@types/node/16.11.25:
