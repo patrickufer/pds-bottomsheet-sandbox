@@ -1,15 +1,15 @@
-# Matomo + NextJS - Minimal Repo
+# PDS + react-spring-bottom-sheet + NextJS - Minimal Repo
 
-Made to demonstrate BottomSheet PII bug
+Made to demonstrate BottomSheet PDS PButton bug
 
 ## Setup
 
-Replace the environment variables with your own inside `.env`
+Make sure you authenticate your NPM_TOKEN to be able to install PDS library: https://designsystem.porsche.com/latest/start-coding/introduction
 
-```txt
-NEXT_PUBLIC_MATOMO_URL=replace-with-yours-here
-NEXT_PUBLIC_MATOMO_SITE_ID=replace-with-yours-here
-```
+From root dir run
+`pnpm i`
+then
+`pnpm run dev`
 
 ## Summary of issue
 
