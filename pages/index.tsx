@@ -1,4 +1,4 @@
-import { PButton } from '@porsche-design-system/components-react';
+import { PButton, PText } from '@porsche-design-system/components-react';
 import React, { Fragment, useState } from 'react';
 import { BottomSheet } from 'react-spring-bottom-sheet'
 
@@ -11,8 +11,8 @@ const Home = (): JSX.Element => {
   <div className="pageLayout">
     <button onClick={() => setOpen(true)}>Open bottom sheet</button>
     <hr/>
-    <p>Button clicked: {count.toString()} times</p>
-    <p>Blocking: {blocking.toString()}</p>
+    <PText>Button clicked: {count.toString()} times</PText>
+    <PText>Blocking: {blocking.toString()}</PText>
     <button onClick={() => setBlocking(!blocking)}>Toggle BottomSheet blocking</button>
     <BottomSheet blocking={blocking} open={open} header={
         <Fragment>
