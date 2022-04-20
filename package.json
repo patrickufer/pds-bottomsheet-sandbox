@@ -15,7 +15,7 @@
     "next": "11.0.1",
     "react": "16.14.0",
     "react-dom": "16.14.0",
-    "react-spring-bottom-sheet": "3.4.0"
+    "react-spring-bottom-sheet": "https://github.com/patrickufer/react-spring-bottom-sheet-forked"
   },
   "devDependencies": {
     "@types/node": "^16.11.12",

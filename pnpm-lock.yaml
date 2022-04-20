@@ -9,7 +9,7 @@ specifiers:
   prettier: ^2.5.1
   react: 16.14.0
   react-dom: 16.14.0
-  react-spring-bottom-sheet: 3.4.0
+  react-spring-bottom-sheet: https://github.com/patrickufer/react-spring-bottom-sheet-forked
   sass: ^1.38.2
   typescript: ^4.4.4
 
@@ -19,7 +19,7 @@ dependencies:
   next: 11.0.1_ee66121c5e8037e4e81691f607b7ef77
   react: 16.14.0
   react-dom: 16.14.0_react@16.14.0
-  react-spring-bottom-sheet: 3.4.0_3b9aa16dedbbd0b3d0d1907da961da36
+  react-spring-bottom-sheet: github.com/patrickufer/react-spring-bottom-sheet-forked/85de5fe318f7c83c64061b8b54bee2d943314cef_3b9aa16dedbbd0b3d0d1907da961da36
 
 devDependencies:
   '@types/node': 16.11.25
@@ -771,12 +771,6 @@ packages:
     dependencies:
       locate-path: 5.0.0
       path-exists: 4.0.0
-    dev: false
-
-  /focus-trap/6.7.3:
-    resolution: {integrity: sha512-8xCEKndV4KrseGhFKKKmczVA14yx1/hnmFICPOjcFjToxCJYj/NHH43tPc3YE/PLnLRNZoFug0EcWkGQde/miQ==}
-    dependencies:
-      tabbable: 5.2.1
     dev: false
 
   /foreach/2.0.5:
@@ -1566,26 +1560,6 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: false
 
-  /react-spring-bottom-sheet/3.4.0_3b9aa16dedbbd0b3d0d1907da961da36:
-    resolution: {integrity: sha512-zKwTymxrTRMHPjfBiMw8reQlWoVqlCGMTefmMYkAlBvR7n3hBe5sntuQJAEjmrAnA+cLSGp44mtmgBtT2ksL5Q==}
-    peerDependencies:
-      react: ^16.14.0 || 17
-    dependencies:
-      '@juggle/resize-observer': 3.3.1
-      '@reach/portal': 0.13.2_react-dom@16.14.0+react@16.14.0
-      '@xstate/react': 1.6.3_da735103b74b419c9bd004690af0420a
-      body-scroll-lock: 3.1.5
-      focus-trap: 6.7.3
-      react: 16.14.0
-      react-spring: 8.0.27_react-dom@16.14.0+react@16.14.0
-      react-use-gesture: 8.0.1_react@16.14.0
-      xstate: 4.30.1
-    transitivePeerDependencies:
-      - '@types/react'
-      - '@xstate/fsm'
-      - react-dom
-    dev: false
-
   /react-spring/8.0.27_react-dom@16.14.0+react@16.14.0:
     resolution: {integrity: sha512-nDpWBe3ZVezukNRandTeLSPcwwTMjNVu1IDq9qA/AMiUqHuRN4BeSWvKr3eIxxg1vtiYiOLy4FqdfCP5IoP77g==}
     peerDependencies:
@@ -2100,4 +2074,37 @@ packages:
   /yocto-queue/0.1.0:
     resolution: {integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==}
     engines: {node: '>=10'}
+    dev: false
+
+  github.com/patrickufer/focus-trap-forked/a00ad64e981c2b9a68696fd7ddc3efbf8d51e5fb:
+    resolution: {tarball: https://codeload.github.com/patrickufer/focus-trap-forked/tar.gz/a00ad64e981c2b9a68696fd7ddc3efbf8d51e5fb}
+    name: focus-trap
+    version: 6.7.3
+    prepare: true
+    requiresBuild: true
+    dependencies:
+      tabbable: 5.2.1
+    dev: false
+
+  github.com/patrickufer/react-spring-bottom-sheet-forked/85de5fe318f7c83c64061b8b54bee2d943314cef_3b9aa16dedbbd0b3d0d1907da961da36:
+    resolution: {tarball: https://codeload.github.com/patrickufer/react-spring-bottom-sheet-forked/tar.gz/85de5fe318f7c83c64061b8b54bee2d943314cef}
+    id: github.com/patrickufer/react-spring-bottom-sheet-forked/85de5fe318f7c83c64061b8b54bee2d943314cef
+    name: react-spring-bottom-sheet
+    version: 3.4.0
+    peerDependencies:
+      react: ^16.14.0 || 17
+    dependencies:
+      '@juggle/resize-observer': 3.3.1
+      '@reach/portal': 0.13.2_react-dom@16.14.0+react@16.14.0
+      '@xstate/react': 1.6.3_da735103b74b419c9bd004690af0420a
+      body-scroll-lock: 3.1.5
+      focus-trap: github.com/patrickufer/focus-trap-forked/a00ad64e981c2b9a68696fd7ddc3efbf8d51e5fb
+      react: 16.14.0
+      react-spring: 8.0.27_react-dom@16.14.0+react@16.14.0
+      react-use-gesture: 8.0.1_react@16.14.0
+      xstate: 4.30.1
+    transitivePeerDependencies:
+      - '@types/react'
+      - '@xstate/fsm'
+      - react-dom
     dev: false
